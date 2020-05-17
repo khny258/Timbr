@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timbr - Love at first Sound</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1><strong>Collaborate Find Your Mate</strong></h1>
+            <hr>
+            <h3><strong>Tell Us About Yourself</strong></h3>
+            <br>
+            <h4>First Name (Required)</h4>
+            <input type="text" id="firstname" class="form-control" required>
+
+            <h4>Last Name (Required)</h4>
+            <input type="text" id="lastname" class="form-control" required>
+
+            <h4>Link to Photo Image (Required)</h4>
+            <input type="text" id="photo" class="form-control" required="">
+            <br>
+            
+            <h4>What do you play?</h4>
+
+                <label id="instQ" for="select">Instrument(s)</label>
+                <select id="select">
+                  <option value="">Choose...</option>
+                  <optgroup id="instTypeb1" label="Brass">
+                    <option id="instTypeb2" value="Trumpet">Trumpet</option>
+                    <option id="instTypeb3" value="Cornet">Cornet</option>
+                    <option id="instTypeb4" value="Trombone">Trombone</option>
+                    <option id="instTypeb5" value="Baritone Horn">Baritone horn</option>
+                    <option id="instTypeb6" value="French Horn">French Horn</option>
+                    <option id="instTypeb7" value="Saxaphone">Saxaphone</option>
+                    <option id="instTypeb8" value="Sousaphone">Sousaphone</option>
+                    <option id="instTypeb9" value="Tuba">Tuba</option>
+                    <option id="instTypeb10" value="Wagner Tuba">Wagner tuba</option>
+                  </optgroup>
+
+                  <optgroup id="instTypep1" label="Percussion">
+                    <option id="instTypep2" value="Triangle">Triangle</option>
+                    <option id="instTypep3" value="Timpani">Timpani</option>
+                    <option id="instTypep4" value="Xylophone">Xylophone</option>
+                    <option id="instTypep5" value="Vibraphone">Vibraphone</option>
+                    <option id="instTypep6" value="Marimba">Marimba</option>
+                    <option id="instTypep7" value="Tubular Bells">Tubular bells</option>
+                    <option id="instTypep8" value="Glockenspiel">Glockenspiel</option>
+                    <option id="instTypep9" value="Celesta">Celesta</option>
+                    <option id="instTypep10" value="Bass Drum">Bass drum</option>
+                    <option id="instTypep11" value="Snare drum">Snare drum</option>
+                    <option id="instTypep12" value="Wood Block">Wood block</option>
+                    <option id="instTypep13" value="Whip">Whip</option>
+                    <option id="instTypep14" value="Ratchet">Ratchet</option>
+                    <option id="instTypep15" value="Cymbals">Cymbals</option>
+                    <option id="instTypep16" value="Tambourine">Tambourine</option>
+                  </optgroup>
+
+                  <optgroup id="instTypes1" label="Strings">
+                    <option id="instTypes2" value="Violin">violin</option>
+                    <option id="instTypes3" value="Viola">viola</option>
+                    <option id="instTypes4" value="Cello">cello</option>
+                    <option id="instTypes5" value="Bass">bass</option>
+                    <option id="instTypes6" value="Harp">harp</option>
+                    <option id="instTypes7" value="Guitar">guitar</option>
+                    <option id="instTypes8" value="Viol de gamba">viol de gamba</option>
+                    <option id="instTypes9" value="Viol d'amore">viol d'amore</option>
+                    <option id="instTypes10" value="Theorbo">theorbo</option>
+                  </optgroup>
+
+                  <optgroup id="instTypew1" label="Woodwinds">
+                    <option id="instTypew2" value="Piccolo">Piccolo</option>
+                    <option id="instTypew3" value="Flute">Flute</option>
+                    <option id="instTypew4" value="Clarinet">Clarinet</option>
+                    <option id="instTypew5" value="English Horn">English Horn</option>
+                    <option id="instTypew6" value="Oboe">Oboe</option>
+                    <option id="instTypew7" value="Bass clarinet">Bass clarinet</option>
+                    <option id="instTypew8" value="Bassoon">Bassoon</option>
+                    <option id="instTypew9" value="Contrabassoon">Contrabassoon</option>
+                    <option id="instTypew10" value="Bagpipe">Bagpipe</option>
+                    <option id="instTypew11" value="Harmonica">Harmonica</option>
+                  </optgroup>
+
+                  <optgroup id="instTypek1" label="Keyboard">
+                    <option id="instTypek2" value="Piano">Piano</option>
+                    <option id="instTypek3" value="Harpsichord">Harpsichord</option>
+                    <option id="instTypek4" value="Clavichord">Clavichord</option>
+                    <option id="instTypek5" value="Accordion">Accordion</option>
+                    <option id="instTypek6" value="Celesta">Celesta</option>
+                    <option id="instTypek7" value="Harmonium">Harmonium</option>
+                    <option id="instTypek8" value="Organ">Organ</option>
+                  </optgroup>
+
+                  <optgroup id="instTypev1" label="Voice">
+                    <option id="instTypev2" value="Soprano">Soprano</option>
+                    <option id="instTypev3" value="Mezzo Soprano">Mezzo Soprano</option>
+                    <option id="instTypev4" value="Contralto">Contralto</option>
+                    <option id="instTypev5" value="Countertenor">Countertenor</option>
+                    <option id="instTypev6" value="Tenor">Tenor</option>
+                    <option id="instTypev7" value="Baritone">Baritone</option>
+                    <option id="instTypev8" value="Bass_voice">Bass</option>
+                  </optgroup>
+                </select>
+
+            <hr>
+            
+            <br>
+            
+            <h4>When is your birthday?</h4>
+            <input type="date" id="photo" class="form-control" required="">
+            
+            <br>
+
+            <h4>Where are you located?</h4>
+            <input type="text" id="photo" class="form-control" required="">
+            
+            <br>
+
+            <h4>I identify as...</h4>
+            <select id="select">
+              <option value="">Choose...</option>
+              <option id="female" value="female">Female</option>
+              <option id="male" value="male">Male</option>
+              <option id="non-binary" value="non-binary">Non-Binary</option>
+            </select>
+
+            <br>
+            <br>
+
+            <h4>I'm interested in meeting...</h4>
+
+            <br>
+
+            <form>
+              <p><input id="male" type="checkbox" value="Male"/>Male</p>
+              <p><input id="female" type="checkbox" value="Female"/>Female</p>
+              <p><input id="non-binary" type="checkbox" value="non-binary"/>Non-binary</p>
+            </form>
+
+            <br>
+
+            <h4>What do you like to listen to?</h4>
+            
+            <br>
+
+            <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <p><label><input id="like1" type="checkbox" value="" />  Hip-Hop</label></p>
+                    <p><label><input id="like2" type="checkbox" value="" />  Pop</label></p>
+                    <p><label><input id="like3" type="checkbox" value="" />  Country</label></p>
+                    <p><label><input id="like4" type="checkbox" value="" />  R&B</label></p>
+                    <p><label><input id="like5" type="checkbox" value="" />  Latin</label></p>
+                  </div>
+                  <div class="col-sm">
+                    <p><label><input id="like6" type="checkbox" value="" />  Rock</label></p>
+                    <p><label><input id="like7" type="checkbox" value="" />  Dance/Electronic</label></p>
+                    <p><label><input id="like8" type="checkbox" value="" />  Indie</label></p>
+                    <p><label><input id="like9" type="checkbox" value="" />  Folk & Acoustic</label></p>
+                    <p><label><input id="like10" type="checkbox" value="" />  Classical</label></p>
+                  </div>
+                  <div class="col-sm">
+                    <p><label><input id="like11" type="checkbox" value="" />  Christian</label></p>
+                    <p><label><input id="like12" type="checkbox" value="" />  K-Pop</label></p>
+                    <p><label><input id="like13" type="checkbox" value="" />  Arab</label></p>
+                    <p><label><input id="like14" type="checkbox" value="" />  Desi</label></p>
+                    <p><label><input id="like15" type="checkbox" value="" />  Afro</label></p>
+                  </div>
+                  <div class="col-sm">
+                    <p><label><input id="like16" type="checkbox" value="" />  Regional Mexican</label></p>
+                    <p><label><input id="like17" type="checkbox" value="" />  Reggae</label></p>
+                    <p><label><input id="like18" type="checkbox" value="" />  Blues</label></p>
+                    <p><label><input id="like19" type="checkbox" value="" />  Punk</label></p>
+                    <p><label><input id="like20" type="checkbox" value="" />  Funk</label></p>
+                  </div>
+                </div>
+              </div>
+
+              <hr>
+
+              <h4>Tell us about yourself!</h4>
+              <p>Filler</p>
+
+
+
+
+
+
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-warning btn-lg " id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                Submit</button>
+        </form>
+        <hr>
+
+        <footer>
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub
+                        Repo</a></p>
+            </div>
+        </footer>
+    </div>
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Bootstrap Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                    <h2 class="modal-title"><strong>Best Match</strong></h2>
+                </div>
+                <div class="modal-body">
+                    <h2 id="match-name"></h2>
+                    <img id="match-img" style="max-width:500px;max-height:500px;" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg"
+                        alt="">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/kat3ng/friend_finder">GitHub
+                        Repo</a></p>
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="survey.js"></script>
+</body>
+
+</html>
