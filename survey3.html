@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Timbr - Love at first Sound</title>
+
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="survey.css">
+
+</head>
+
+<body>
+  <br>
+  <div id = "title">
+  Collaborate Find Your Mate
+  <hr style="width:50%;text-align:left;margin-left:0">
+  </div>
+  <div id = "category">
+  Tell Us About Yourself:
+  </div>
+  <br>
+  <br>
+  <br>
+  <form>
+    <div class="container">
+      <h2>What do you play?</h2>
+      <br>
+          <label id="instQ" for="select">Instrument(s)</label>
+          <select id="select">
+            <option value="">Choose...</option>
+            <optgroup id="instTypeb1" label="Brass">
+              <option id="instTypeb2" value="Trumpet">Trumpet</option>
+              <option id="instTypeb3" value="Cornet">Cornet</option>
+              <option id="instTypeb4" value="Trombone">Trombone</option>
+              <option id="instTypeb5" value="Baritone Horn">Baritone horn</option>
+              <option id="instTypeb6" value="French Horn">French Horn</option>
+              <option id="instTypeb7" value="Saxaphone">Saxaphone</option>
+              <option id="instTypeb8" value="Sousaphone">Sousaphone</option>
+              <option id="instTypeb9" value="Tuba">Tuba</option>
+              <option id="instTypeb10" value="Wagner Tuba">Wagner tuba</option>
+            </optgroup>
+
+            <optgroup id="instTypep1" label="Percussion">
+              <option id="instTypep2" value="Triangle">Triangle</option>
+              <option id="instTypep3" value="Timpani">Timpani</option>
+              <option id="instTypep4" value="Xylophone">Xylophone</option>
+              <option id="instTypep5" value="Vibraphone">Vibraphone</option>
+              <option id="instTypep6" value="Marimba">Marimba</option>
+              <option id="instTypep7" value="Tubular Bells">Tubular bells</option>
+              <option id="instTypep8" value="Glockenspiel">Glockenspiel</option>
+              <option id="instTypep9" value="Celesta">Celesta</option>
+              <option id="instTypep10" value="Bass Drum">Bass drum</option>
+              <option id="instTypep11" value="Snare drum">Snare drum</option>
+              <option id="instTypep12" value="Wood Block">Wood block</option>
+              <option id="instTypep13" value="Whip">Whip</option>
+              <option id="instTypep14" value="Ratchet">Ratchet</option>
+              <option id="instTypep15" value="Cymbals">Cymbals</option>
+              <option id="instTypep16" value="Tambourine">Tambourine</option>
+            </optgroup>
+
+            <optgroup id="instTypes1" label="Strings">
+              <option id="instTypes2" value="Violin">violin</option>
+              <option id="instTypes3" value="Viola">viola</option>
+              <option id="instTypes4" value="Cello">cello</option>
+              <option id="instTypes5" value="Bass">bass</option>
+              <option id="instTypes6" value="Harp">harp</option>
+              <option id="instTypes7" value="Guitar">guitar</option>
+              <option id="instTypes8" value="Viol de gamba">viol de gamba</option>
+              <option id="instTypes9" value="Viol d'amore">viol d'amore</option>
+              <option id="instTypes10" value="Theorbo">theorbo</option>
+            </optgroup>
+
+            <optgroup id="instTypew1" label="Woodwinds">
+              <option id="instTypew2" value="Piccolo">Piccolo</option>
+              <option id="instTypew3" value="Flute">Flute</option>
+              <option id="instTypew4" value="Clarinet">Clarinet</option>
+              <option id="instTypew5" value="English Horn">English Horn</option>
+              <option id="instTypew6" value="Oboe">Oboe</option>
+              <option id="instTypew7" value="Bass clarinet">Bass clarinet</option>
+              <option id="instTypew8" value="Bassoon">Bassoon</option>
+              <option id="instTypew9" value="Contrabassoon">Contrabassoon</option>
+              <option id="instTypew10" value="Bagpipe">Bagpipe</option>
+              <option id="instTypew11" value="Harmonica">Harmonica</option>
+            </optgroup>
+
+            <optgroup id="instTypek1" label="Keyboard">
+              <option id="instTypek2" value="Piano">Piano</option>
+              <option id="instTypek3" value="Harpsichord">Harpsichord</option>
+              <option id="instTypek4" value="Clavichord">Clavichord</option>
+              <option id="instTypek5" value="Accordion">Accordion</option>
+              <option id="instTypek6" value="Celesta">Celesta</option>
+              <option id="instTypek7" value="Harmonium">Harmonium</option>
+              <option id="instTypek8" value="Organ">Organ</option>
+            </optgroup>
+
+            <optgroup id="instTypev1" label="Voice">
+              <option id="instTypev2" value="Soprano">Soprano</option>
+              <option id="instTypev3" value="Mezzo Soprano">Mezzo Soprano</option>
+              <option id="instTypev4" value="Contralto">Contralto</option>
+              <option id="instTypev5" value="Countertenor">Countertenor</option>
+              <option id="instTypev6" value="Tenor">Tenor</option>
+              <option id="instTypev7" value="Baritone">Baritone</option>
+              <option id="instTypev8" value="Bass_voice">Bass</option>
+            </optgroup>
+          </select>
+
+  </div>
+      </form>
+    </div>  
+  </form>
+  </div>
+  <br>
+            <!-- Next Button -->
+            <div class = "container">
+              <a href="survey2.html" class="btn btn-info" role="button">Back</a>  
+            <a href="survey4.html" class="btn btn-info" role="button">Next</a>  
+            </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+<ul class="progressbar">
+  <li>Name</li>
+  <li>Link Photo</li>
+  <li class="active">What Do you Play?</li>
+  <li>What Do You Listen To?</li>
+</ul>
+</div> 
+<br>
+<br>
+<br>
+
+
+<footer>
+    <small id = "footer">
+    <div class="container">
+        <hr>
+        <p><img class="logo" src="/loginregister/img/logo.png">
+          <a href="">Profile</a> | <a href="">Matches</a> | <a href="">Logout</a></p>
+    </div>
+    </small>
+</footer>
+
+
+</body>
+
+</html>
