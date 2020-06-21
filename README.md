@@ -1,5 +1,4 @@
-# presentation
-Timbr - Love at First Sound
+# Timbr - Love at First Sound
 <br>
 <br>
 <img src="/img/1.jpg" width="75%" height="75%">
